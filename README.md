@@ -4,7 +4,7 @@
 
 The aim of this project is to help setting up a React library and show how to use it in your project, with live reload.
 - `sample-app` : demo application using Create React App
-- `sample-library-cra` : demo library using Create React App and Rollup.js
+- `sample-library-cra` : demo library using Create React App, Babel and Rollup.js
 
 ## Quick demo
 - Setup sample library :
@@ -53,8 +53,7 @@ $ yarn add --dev rollup @rollup/plugin-node-resolve rollup-plugin-babel rollup-p
   }
 }
 ```
-- Make your lib available locally : `$ npm link`
-- Optional, publish on NPM : `$ npm publish --access public`
+- Make your lib available locally : `$ npm link` or publish to NPM : `$ npm publish --access public`
 
 
 ### Creating the application
