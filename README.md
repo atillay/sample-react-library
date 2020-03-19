@@ -1,4 +1,4 @@
-# Sample React Component Library
+# Sample React Library
 
 **WIP**
 
