@@ -11,7 +11,6 @@ The aim of this project is to help setting up a React library and show how to us
 ```bash
 $ cd sample-library-cra
 $ npm install
-$ npm run lib:watch
 ```
 - Setup sample app :
 ```bash
