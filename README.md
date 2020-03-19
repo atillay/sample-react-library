@@ -59,7 +59,7 @@ $ yarn add --dev rollup @rollup/plugin-node-resolve rollup-plugin-babel rollup-p
 
 We will use Create React App for ou application that will use the library but you can use any other tool.
 
-- Bootstrap our application : `$ npx create-react-app {my-library}` 
+- Bootstrap our application : `$ npx create-react-app {my-app}` 
 - Install our library : `$ yarn add {my-library}`
 
 Automatic refresh of library changes in our application :
