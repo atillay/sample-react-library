@@ -1,0 +1,17 @@
+#!/bin/bash
+
+APP_PATH=$PWD
+APP_NAME=`node -p "require('$APP_PATH/package.json').name"`
+
+MODULE_PATH="$( cd "$(dirname "$0")" ; pwd -P )"
+MODULE_NAME=`node -p "require('$MODULE_PATH/package.json').name"`
+
+echo -e "Linking $MODULE_NAME to $APP_NAME"
+
+mkdir -p $APP_PATH/node_modules/$MODULE_NAME # Make sure folder exist
+rm -rf $APP_PATH/node_modules/$MODULE_NAME # Remove module directory
+ln -s $MODULE_PATH $APP_PATH/node_modules/$MODULE_NAME # Symlink
+
+echo -e "Watching for changes in $MODULE_NAME..."
+echo -e "Now you can run npm start in $APP_NAME"
+npm run --prefix $MODULE_PATH lib:watch
