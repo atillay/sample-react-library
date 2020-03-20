@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {MyComponent} from "@atillay/sample-library-cra";
+import '@atillay/sample-library-cra/dist/lib.css';
+import {MyComponent} from '@atillay/sample-library-cra';
 
 function App() {
   return (

@@ -1,8 +1,8 @@
-import './lib/index.scss'
+import './lib/scss/lib.scss';
 
 /**
  * Library index
- * Usage : import {MyComponent} from '@atillay/sample-react-component-library';
+ * Usage : import {MyComponent} from '@atillay/sample-library-cra';
  */
 export { default as MyComponent } from './lib/MyComponent';
 

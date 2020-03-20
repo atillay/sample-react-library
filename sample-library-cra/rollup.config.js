@@ -7,7 +7,7 @@ export default {
 	input: 'src/lib.js',
 	output: {
 		format: 'cjs',
-		file: 'dist/index.js'
+		file: 'dist/lib.js'
 	},
 	external: [
 		'react',

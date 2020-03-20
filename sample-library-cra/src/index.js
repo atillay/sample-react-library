@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './lib/scss/lib.scss';
 import MyComponent from "./lib/MyComponent";
 
 const App = () => (
